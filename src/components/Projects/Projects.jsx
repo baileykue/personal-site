@@ -1,5 +1,10 @@
-import React from 'react';
+import styles from './Projects.css';
 
 export default function Projects() {
-  return <div>Projects</div>;
+  const { projects } = styles;
+  return (
+    <div id="projects-id" className={projects}>
+      Projects
+    </div>
+  );
 }

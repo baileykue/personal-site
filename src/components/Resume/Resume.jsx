@@ -1,5 +1,10 @@
-import React from 'react';
+import styles from './Resume.css';
 
 export default function Resume() {
-  return <div>Resume</div>;
+  const { resume } = styles;
+  return (
+    <div id="resume-id" className={resume}>
+      Resume
+    </div>
+  );
 }

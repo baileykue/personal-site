@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+.about {
+  height: 100rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Lustria', serif;
+  font-size: 5em;
+  text-align: justify;
+  padding: 2em;
+}
+
+.bio img {
+  height: 35vh;
+  width: auto;
+}
+
+.bio p {
+  padding-right: 3em;
+}
