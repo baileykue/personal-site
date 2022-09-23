@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8em;
+  background-color: red;
+  padding: 1em;
+}
+
+.bk_logo img {
+  padding: 2em;
+  height: 25em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45em;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+}
