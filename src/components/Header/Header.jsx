@@ -9,11 +9,9 @@ export default function Header() {
         <img src={logo} />
       </div>
       <div className={menu}>
-        <a default href="#about">
-          About
-        </a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
+        <a href="#about-id">About</a>
+        <a href="#projects-id">Projects</a>
+        <a href="#resume-id">Resume</a>
       </div>
     </header>
   );
