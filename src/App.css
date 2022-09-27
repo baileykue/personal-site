@@ -1,8 +1,16 @@
 html {
   font-size: 75%;
 }
-body {
+
+#root {
   background-color: #ebe6e4;
   min-height: 100vh;
   font-size: 1em;
+  padding-top: 5vh;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
 }

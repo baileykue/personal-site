@@ -2,7 +2,7 @@
 
 .header {
   width: 100%;
-  position: sticky;
+  background-color: #ebe6e4;
   left: 0;
   top: 0;
   display: flex;
@@ -11,6 +11,8 @@
   box-shadow: 0 15px 15px -15px gray;
   height: 5vh;
   padding: 1rem;
+  position: fixed;
+  z-index: 1;
 }
 
 .bk_logo img {
@@ -23,7 +25,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 45vw;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Lato', sans-serif;
 }
 

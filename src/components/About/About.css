@@ -4,34 +4,30 @@
 .about {
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #403737;
+  padding: 8rem 5rem 8rem 5rem;
+  /* align-items: center; */
 }
 
 .about h1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .bio {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   font-family: 'Lustria', serif;
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: justify;
-  padding: 2rem;
+  padding-right: 5rem;
 }
 
 .bio img {
   height: 45vh;
   width: auto;
-  padding: 3rem;
-}
-
-.bio p {
-  padding: 5rem;
 }
 
 .tech {
@@ -40,7 +36,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-family: 'Lustria', serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .tech ul {
@@ -50,5 +46,5 @@
 
 .tech h2 {
   font-family: 'Lato', sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
 }
