@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .about {
-  height: 100vh;
+  height: 91vh;
   display: flex;
   flex-direction: row;
   color: #403737;
   padding: 8rem 5rem 8rem 5rem;
-  /* align-items: center; */
 }
 
 .about h1 {
@@ -25,7 +24,7 @@
   padding-right: 5rem;
 }
 
-.bio img {
+.pic img {
   height: 45vh;
   width: auto;
 }

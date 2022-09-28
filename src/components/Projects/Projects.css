@@ -1,4 +1,54 @@
-.projects {
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.project_bio {
+  height: 91vh;
   background-color: #b2acaa;
+  padding: 5rem;
+  font-family: 'Lato', sans-serif;
+  color: #ebe6e4;
+  text-shadow: 1px 1px 3px #403737;
+}
+
+.project_bio p {
+  font-family: 'Lustria', serif;
+}
+
+.project_bio h1 {
+  font-size: 3rem;
+}
+
+.projects {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects img {
+  height: 35vh;
+  width: auto;
+  margin: 2rem;
+  border-radius: 15px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+}
+
+.projects p {
+  text-align: justify;
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.resourcery,
+.friendsmap,
+.scrounger {
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  height: 50vh;
 }

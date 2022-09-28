@@ -2,9 +2,13 @@ html {
   font-size: 75%;
 }
 
-#root {
+body {
   background-color: #ebe6e4;
+}
+
+#root {
   min-height: 100vh;
+  min-width: 100vw;
   font-size: 1em;
   padding-top: 5vh;
 }
