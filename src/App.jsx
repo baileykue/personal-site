@@ -4,6 +4,8 @@ import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import './App.css';
 
+// testing github acct
+
 export default function App() {
   return (
     <Layout>
